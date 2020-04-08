@@ -30,4 +30,12 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  header:
+    qui_sommes_nous: "Who we are?"
+    agir: "I'll do something"
+    projets: "Discover our projects"
+    soutenir: "Support us"
+    en: "en"
+    fr: "fr"
+    nl: "nl"
+    ar: "ar"

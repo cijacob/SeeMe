@@ -6,17 +6,25 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Qui sommes-nous?<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#"><%= t('header.qui_sommes_nous') %><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Je veux agir</a>
+        <a class="nav-link" href="#"><%= t('header.agir') %></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Nos projets</a>
+        <a class="nav-link" href="#"><%= t('header.projets') %></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Nous soutenir</a>
+        <a class="nav-link" href="#"><%= t('header.soutenir') %></a>
       </li>
     </ul>
+    <span class="">
+      <ul class="langages-list">
+        <li><%= link_to t('header.en'), locale: "en" %></li>
+        <li><%= link_to t('header.fr'), locale: "fr" %></li>
+        <li><%= link_to t('header.nl'), locale: "nl" %></li>
+        <li><%= link_to t('header.ar'), locale: "ar" %></li>
+      </ul>
+    </span>
   </div>
 </nav>
