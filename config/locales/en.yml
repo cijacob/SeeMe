@@ -40,3 +40,9 @@ en:
     fr: "fr"
     nl: "nl"
     ar: "ar"
+  index:
+    before_title: ""
+    title: ""
+    intro: ""
+  footer:
+    contact: ""

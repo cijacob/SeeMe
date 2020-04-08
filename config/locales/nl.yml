@@ -9,3 +9,9 @@ nl:
     fr: "fr"
     nl: "nl"
     ar: "ar"
+  index:
+    before_title: "Re"
+    title: "Donner des ailes aux réfugiés ..."
+    intro: "en bâtissant des ponts entre leurs savoir-faire et le monde de l’entreprise"
+  footer:
+    contact: ""
