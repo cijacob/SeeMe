@@ -9,13 +9,16 @@
         <a class="nav-link" href="#"><%= t('header.qui_sommes_nous') %><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><%= t('header.agir') %></a>
+        <%= link_to t('header.a_propos'), about_path, class: "nav-link" %>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><%= t('header.projets') %></a>
+        <%= link_to t('header.agir'), "", class: "nav-link" %>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><%= t('header.soutenir') %></a>
+        <%= link_to t('header.projets'), "", class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to t('header.soutenir'), "", class: "nav-link" %>
       </li>
     </ul>
     <span class="">
