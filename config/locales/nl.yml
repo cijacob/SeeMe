@@ -14,3 +14,6 @@ nl:
     intro: "en bâtissant des ponts entre leurs savoir-faire et le monde de l’entreprise"
   footer:
     contact: "Contact"
+  project:
+    index:
+      title: "Alle projects"

@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     root "homepage#index"
     get 'about' => "homepage#about"
     resources :homepage , only: [:index, :about]
+    resources :projects
   end
 end
   

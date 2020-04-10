@@ -14,3 +14,6 @@ fr:
     intro: "En bâtissant des ponts entre leurs savoir-faire."
   footer:
     contact: "Contact"
+  project:
+    index:
+      title: "Tous les projets que nous avons mis en place"

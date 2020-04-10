@@ -45,3 +45,6 @@ en:
     intro: ""
   footer:
     contact: ""
+  project:
+    index:
+      title: "Discover all projects "
