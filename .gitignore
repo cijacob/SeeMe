@@ -29,3 +29,8 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+#Ignore all images
+*.png
+*.jpg
+*.jpeg

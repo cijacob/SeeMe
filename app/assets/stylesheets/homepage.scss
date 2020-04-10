@@ -21,24 +21,16 @@ $brown: #8f6e14;
         width: 70%;
         transform: skewX(-30deg);
       }
-      :nth-child(2){
-        background-color: $brown;
-        width: 100px;
-        transform: skewX(-30deg);
-      }
       :nth-child(3){
         background-color: black;
         width: 100px;
         transform: skewX(-30deg);
       }
-      :nth-child(4){
-        background-color: $brown;
-        width: 100px; 
-        transform: skewX(-30deg);
-      }
+      :nth-child(2),
+      :nth-child(4),
       :nth-child(5){
         background-color: $brown;
-        width: 100px;
+        width: 100px; 
         transform: skewX(-30deg);
       }
     }
@@ -47,13 +39,20 @@ $brown: #8f6e14;
     width: 70%;
     height: 15vh;
     display: flex;
-    margin: auto;
+    margin: 50px auto;
     justify-content: space-around;
     align-items: center;
     .text_hp__logo{
-      width: 100px; 
+      width: 250px; 
+      img{
+        width: 100%;
+      }
     }
     .text_hp__intro{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 20px;
       .text_hp__title{
         display: inline-flex;
         h3{

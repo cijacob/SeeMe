@@ -1,11 +1,16 @@
 .langages-list{
   display: flex;
   height: 15vh;
+  align-items: center;
  li{
    list-style: none;
    margin: 0 5px; 
    a{
-     color: orange;
+     color: black;
+     &:hover,
+     &:focus{
+       color: #8f6e14;
+     }
    }
  }
 }
