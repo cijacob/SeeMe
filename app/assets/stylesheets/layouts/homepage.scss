@@ -29,7 +29,7 @@ $brown: #8f6e14;
       :nth-child(2),
       :nth-child(4),
       :nth-child(5){
-        background-color: $brown;
+        background-color:$brown;
         width: 100px; 
         transform: skewX(-30deg);
       }
@@ -67,6 +67,7 @@ $brown: #8f6e14;
       }
     }
   }
+  
 }
 
 
