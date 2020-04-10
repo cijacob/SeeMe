@@ -6,10 +6,9 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#"><%= t('header.qui_sommes_nous') %><span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <%= link_to t('header.a_propos'), about_path, class: "nav-link" %>
+        <%= link_to about_path, class: "nav-link" do %>
+          <%=  t('header.qui_sommes_nous') %><span class="sr-only">(current)</span>
+        <% end %>
       </li>
       <li class="nav-item">
         <%= link_to t('header.agir'), "", class: "nav-link" %>
