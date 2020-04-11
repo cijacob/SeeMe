@@ -5,3 +5,30 @@
 @import '/layouts/footer';
 @import '/layouts/header';
 @import '/layouts/homepage';
+@import 'layouts/projects';
+
+
+.lines{
+  height:10px; 
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100vw;
+  justify-content: space-between;
+  :nth-child(1){
+    background-color: black;
+    width: 70%;
+    transform: skewX(-30deg);
+  }
+  :nth-child(3){
+    background-color: black;
+    width: 100px;
+    transform: skewX(-30deg);
+  }
+  :nth-child(2),
+  :nth-child(4),
+  :nth-child(5){
+    background-color:$brown;
+    width: 100px; 
+    transform: skewX(-30deg);
+  }
+}

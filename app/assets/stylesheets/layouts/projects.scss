@@ -1,0 +1,78 @@
+// Place all the styles related to the projects controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+li{
+  list-style: none;
+}
+.container_projects{
+  width: 100vw;
+  min-height: 100vh;
+  h2{
+    text-align: center;
+    padding: 2em 0;;
+  }
+  .content{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    .header_presentation{
+      padding: 0 5em;
+      margin-bottom: 30px;
+      ul{
+        display:flex;
+        justify-content: space-evenly;
+        .block_presentation{
+          display: flex; 
+          max-width: 500px;
+          box-shadow: 0 10px 40px rgba(0, 0, 0, .3);
+          position: relative;
+          .project_img{
+            height: 350px;
+            width: 350px;
+            object-fit: cover;
+          }
+          .project_title{
+            h4{
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              color: white;
+              text-transform: uppercase;
+              letter-spacing: 0.2em;
+              background-color: rgba(161, 84, 84, 0.4);
+              padding: 10px 30px;
+            }
+          }
+        }
+      }
+    }
+    .more_informations_content{
+      display: flex;
+      width: 80%;
+      margin: 30px auto;
+      flex-direction: column;
+      padding: 30px;
+      h3{
+
+      }
+      .bloc_description{
+        display: flex;
+        flex-direction: column;
+        p{
+          padding: 10px 30px;
+        }
+        button{
+          width: 150px; 
+          margin: auto;
+          .button.button_inscription{
+            
+          }
+        }
+      }
+      @media (min-width: 768px) { 
+        flex-direction: row;
+      }
+    }
+  }
+}

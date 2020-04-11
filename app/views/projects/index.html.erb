@@ -1,3 +1,35 @@
-<div class="container container_projects">
+<div class="container_projects">
   <h2><%= t('project.index.title') %></h2>
+
+  <div class="content">
+    <div class="header_presentation">
+      <ul>
+        <% @projects.each do |project| %>
+          <li>
+            <div class="block_presentation">
+              <%= image_tag "project_nakanek", class: "project_img" %>
+              <div class="project_title"><h4><%= project.title %></h4></div>
+            </div>
+          </li>
+        <% end %>
+        
+      </ul>
+    </div>
+    <div class="lines">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="more_informations_content">
+      <% @projects.each do |project| %>
+        <h3><%= project.title %></h3>
+        <div class="bloc_description">
+          <p><%= project.description %></p>
+          <button><%= link_to t('project.index.inscription'), root_path, class: "button button_inscription" %></button>
+        </div>
+      <% end %>
+    </div>
+  </div>
 </div>
