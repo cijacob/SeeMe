@@ -5,4 +5,7 @@ class HomepageController < ApplicationController
 
   def about
   end
+
+  def private_life
+  end 
 end

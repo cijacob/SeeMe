@@ -14,6 +14,21 @@ fr:
     intro: "En bâtissant des ponts entre leurs savoir-faire."
   footer:
     contact: "Contact"
+    private-life: "Vie privée"
   project:
     index:
       title: "Tous les projets que nous avons mis en place"
+  private:
+    title: "Politique de confidentialité"
+    introduction_html: |
+     Dans le cadre de son activité, l'ASBL SeeMe', dont le siège social est situé au [Adresse du siège social], </br>
+     est amenée à collecter et à traiter des informations dont certaines sont qualifiées de "données personnelles". </br>
+     SeeMe attache une grande importance au respect de la vie privée, et n’utilise que des donnes de manière responsable et confidentielle et dans une finalité précise.
+    subtitle_personnal_data: "Données personnelles"
+    personnal_data_html: |
+     Sur le site web [Adresse du site], il y a 2 types de données susceptibles d’être recueillies : </br>
+     <li>Les données transmises directement
+     Ces données sont celles que vous nous transmettez directement, via un formulaire de contact ou bien par contact direct par email. Sont obligatoires dans le formulaire de contact le champs « prénom et nom », « entreprise ou organisation » et « email ».</li>
+     <li>Les données collectées automatiquement
+     Lors de vos visites, une fois votre consentement donné, nous pouvons recueillir des informations de type « web analytics » relatives à votre navigation, la durée de votre consultation, votre adresse IP, votre type et version de navigateur. La technologie utilisée est le cookie.</li>
+    

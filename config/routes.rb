@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   scope "(:locale)", locale: /fr|en|nl|ar/ do
     root "homepage#index"
     get 'about' => "homepage#about"
+    get 'private_life' => "homepage#private_life"
     resources :homepage , only: [:index, :about]
     resources :projects
   end
