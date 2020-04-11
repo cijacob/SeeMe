@@ -8,6 +8,7 @@
 @import 'layouts/projects';
 
 
+
 .lines{
   height:10px; 
   display: flex;
@@ -30,5 +31,23 @@
     background-color:$brown;
     width: 100px; 
     transform: skewX(-30deg);
+  }
+}
+
+.button_inscription{
+  background-color: transparent;
+  border: 1px solid $black;
+  border-radius: 2px; 
+  &:hover{
+    border: 1px solid $brown;
+  }
+  a{
+    color: $black;
+    &:hover,
+    &:focus,
+    &:active{
+      color: $brown;
+      text-decoration: none;
+    }
   }
 }
