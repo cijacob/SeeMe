@@ -8,27 +8,71 @@ fr:
     fr: "fr"
     nl: "nl"
     ar: "ar"
+
+
   index:
     before_title: "[Re]"
     title: "Donner des ailes aux réfugiés ..."
     intro: "En bâtissant des ponts entre leurs savoir-faire."
+
+
+
   footer:
     contact: "Contact"
     private-life: "Vie privée"
-  project:
-    index:
-      title: "Tous les projets que nous avons mis en place"
+  
+
+
   private:
     title: "Politique de confidentialité"
+    info_asbl: "Mentions légales"
+    info_asbl_text_html: |
+     See Me ASBL
+     Imane El Kart
+     Rue Fritz Toussaint, 8, 1050 Ixelles
+     i.elkart@seeme-refugees.com
+     +32 494 67 50 67
     introduction_html: |
-     Dans le cadre de son activité, l'ASBL SeeMe', dont le siège social est situé au [Adresse du siège social], </br>
+     Dans le cadre de son activité, l'ASBL SeeMe - Jump for refugees, dont le siège social est situé au Rue Fritz Toussaint, 8, 1050 Ixelles, </br>
      est amenée à collecter et à traiter des informations dont certaines sont qualifiées de "données personnelles". </br>
      SeeMe attache une grande importance au respect de la vie privée, et n’utilise que des donnes de manière responsable et confidentielle et dans une finalité précise.
     subtitle_personnal_data: "Données personnelles"
     personnal_data_html: |
-     Sur le site web [Adresse du site], il y a 2 types de données susceptibles d’être recueillies : </br>
+     Sur le site web www.seeme.be, il y a 2 types de données susceptibles d’être recueillies : </br>
      <li>Les données transmises directement
      Ces données sont celles que vous nous transmettez directement, via un formulaire de contact ou bien par contact direct par email. Sont obligatoires dans le formulaire de contact le champs « prénom et nom », « entreprise ou organisation » et « email ».</li>
      <li>Les données collectées automatiquement
      Lors de vos visites, une fois votre consentement donné, nous pouvons recueillir des informations de type « web analytics » relatives à votre navigation, la durée de votre consultation, votre adresse IP, votre type et version de navigateur. La technologie utilisée est le cookie.</li>
-    
+    utilisation_data: "Utilisation des données"
+    personnal_data_text_html: |
+     Les données que vous nous transmettez directement sont utilisées dans le but de vous re-contacter et/ou dans le cadre de la demande que vous nous faites. Les données « web analytics » sont collectées de forme anonyme (en enregistrant des adresses IP anonymes) par Google Analytics,
+     et nous permettent de mesurer l'audience de notre site web, les consultations et les éventuelles erreurs afin d’améliorer constamment l’expérience des utilisateurs. Ces données sont utilisées par SeeMe, responsable du traitement des données, 
+     et ne seront jamais cédées à un tiers ni utilisées à d’autres fins que celles détaillées ci-dessus.
+    legal_base: "Base légale"
+    legal_base_text_html: |
+     Les données personnelles ne sont collectées qu’après consentement obligatoire de l’utilisateur. Ce consentement est valablement recueilli (boutons et cases à cocher), libre, clair et sans équivoque.
+    delay_conservation: "Durée de conservation"
+    delay_conservation_text_html: Les données seront sauvegardées durant une durée maximale de 3 ans.
+    cookies: "Cookies"
+    cookies_text_html: |
+     Voici la liste des cookies utilisées et leur objectif : </br>
+     Cookies Google Analytics: Web analytics </br>
+     [Nom du cookie] : Permet de garder en mémoire le fait que vous acceptez les cookies afin de ne plus vous importuner lors de votre prochaine visite.
+    your_rights: "Vos droits concernant les données personnelles"
+    your_rights_text_html: |
+     Vous avez le droit de consultation, demande de modification ou d’effacement sur l’ensemble de vos données personnelles. 
+     Vous pouvez également retirer votre consentement au traitement de vos données.
+    contact_private_life: "Contact délégué à la protection des données"
+    contact_private_life_text_html: |
+     SeeMe: Imane El Kart, email: i.elkart@seeme-refugees.com </br>
+     Qscar : Jacob Cindy , email: info@qscar.be
+
+  
+  project:
+    index:
+      title: "Tous les projets que nous avons mis en place"
+     
+
+
+
+
