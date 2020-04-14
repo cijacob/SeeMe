@@ -47,11 +47,20 @@ $brown: #8f6e14;
 }
 
 .container_private_life{
-  h2{
+  .hero-title{
+    h2{
     margin: 2rem 0;
     text-align: center;
-    
+    color: $brown;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    }
   }
+  h5{
+    color: $brown;
+  }
+  
 }
 
 
