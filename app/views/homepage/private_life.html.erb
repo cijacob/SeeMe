@@ -1,6 +1,11 @@
 <div class="container container_private_life">
-  <div class="hero-title">
-    <h2><%= t('private.title') %></h2>
+  <div class="row hero-title">
+    <div class="col-8">
+      <h2><%= t('private.title') %></h2>
+    </div>
+    <div class="col-4">
+      <%= image_tag "image_privacy-life", class: "project_img" %>
+    </div>
   </div>
   <h5><%= t('private.info_asbl') %></h5>
   <p><%= t('private.info_asbl_text_html') %></p>
