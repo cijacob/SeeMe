@@ -6,7 +6,7 @@
       <ul>
         <% @projects.each do |project| %>
           <li>
-            <div class="block_presentation">
+            <div class="block_presentation" onClick="changeContent(<%= project.id %>)">
               <%= image_tag "project_nakanek", class: "project_img" %>
               <div class="project_title"><h4><%= project.title %></h4></div>
             </div>
@@ -24,10 +24,12 @@
     </div>
     <div class="more_informations_content">
       <% @projects.each do |project| %>
-        <h3><%= project.title %></h3>
-        <div class="bloc_description">
-          <p><%= project.description %></p>
-          <button class="button_inscription"><%= link_to t('project.index.inscription'), root_path %></button>
+        <div class="inner_more_informations_content" id="project-<%= project.id %>" > 
+          <h3><%= project.title %></h3>
+          <div class="bloc_description">
+            <p><%= project.description %></p>
+            <button class="button_inscription"><%= link_to t('project.index.inscription'), root_path %></button>
+          </div>
         </div>
       <% end %>
     </div>
