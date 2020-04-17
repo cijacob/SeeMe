@@ -1,6 +1,6 @@
 $brown: #8f6e14;
 
-.container.container_index{
+.container_index{
   margin: 0;
   padding:0;
   max-width: 100vw;
@@ -11,19 +11,16 @@ $brown: #8f6e14;
       width: 100%;
       object-fit: cover;
     }
-    
   }
   .text_hp{
     width: 70%;
-    height: 15vh;
     display: flex;
     margin: 50px auto;
     justify-content: space-around;
     align-items: center;
     .text_hp__logo{
-      width: 250px; 
       img{
-        width: 100%;
+        width: 250px; 
       }
     }
     .text_hp__intro{
@@ -68,5 +65,3 @@ $brown: #8f6e14;
   }
   
 }
-
-
