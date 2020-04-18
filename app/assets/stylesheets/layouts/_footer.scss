@@ -1,5 +1,14 @@
 
 .footer-seeme{
+  .text-center.text-md-left{
+    a{
+      color: $black;
+      &:hover{
+        color: $brown;
+        text-decoration: none;
+      }
+    }
+  }
   .list-inline-item{
     a:hover i{
       color:  #8f6e14;
