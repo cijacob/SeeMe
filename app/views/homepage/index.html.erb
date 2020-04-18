@@ -1,18 +1,24 @@
 <div class="container-fluid container_index">
   <div class="img_hp">
-    <img src="../assets/image_hp.jpg" 
-         alt="See Me ASBL donner des ailes aux réfugiés"
-         sizes=""
-         srcset="../assets/image_hp-640.jpg 640w,
-                 ../assets/image_hp-960.jpg 960w,
-                 ../assets/image_hp-1280.jpg 1280w,
-                 ../assets/image_hp-1960.jpg 1960w/>
+    <%= image_tag("image_hp.jpg", class: "img-responsive") %>
     <div class="lines">
       <div></div>
       <div></div>
       <div></div>
       <div></div>
       <div></div>
+    </div>
+  </div>
+
+  <div class="row text_hp">
+    <div class="col-md-4 text_hp__logo">
+      <img src=<%=asset_path("logo_SeeMe.png")%> />
+    </div>
+    <div class="col-md-8 text_hp__intro">
+      <div class="text_hp__title">
+        <h3><span><%= t('index.before_title') %></span><%= t('index.title') %></h3>
+      </div>
+      <p><%= t('index.intro') %></p>
     </div>
   </div>
   
