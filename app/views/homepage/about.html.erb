@@ -1,1 +1,29 @@
-<h3>about us</h3>
+<div class="container-about-seeme">
+  <h2 class="title text-center"><%= t('about.title') %></h2>
+  <div class="row">
+    <div class="col-12">
+      <%= image_tag('Imane_seeme-about-us.jpg', class: "img-fluid img-intro", alt: "Imane Maison François, photo: P-Y. Thienpont. Le Soir ") %>
+    </div>
+  </div>
+  <div class="lines">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="">
+        <h4><%= t('about.story.title') %></h4>
+        <p><%= t('about.story.paragraph_one') %></p>
+        <%= link_to t('about.story.article'), "https://plus.lesoir.be/131564/article/2017-12-29/imane-cest-extraordinaire-de-pouvoir-offrir-un-bout-de-vie-normale", target: "_blank"  %>
+      </div>
+    </div>
+    <div class="col-d-8">
+      <%= image_tag "" %>
+    </div>
+  </div>
+  <div class="row">
+  </div>
+</div>

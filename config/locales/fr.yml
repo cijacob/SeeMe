@@ -71,6 +71,13 @@ fr:
   project:
     index:
       title: "Tous les projets que nous avons mis en place"
+
+  about:
+    title: "A propos de nous"
+    story: 
+      title: "Notre histoire"
+      paragraph_one: "Imane El Kart est du genre entière. Alors plutôt que d’offrir un canapé pour quelques heures à une ou deux migrants du parc Maximilien, elle a ouvert la porte de sa maison – inoccupée en attente de travaux – en grand. Tout grand."
+      article: "Lien vers l'article complet"
      
 
 

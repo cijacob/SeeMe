@@ -65,3 +65,22 @@ $brown: #8f6e14;
   }
   
 }
+
+.container-about-seeme{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .img-intro{
+    margin: 1.5em auto;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .3);
+  }
+  h2.title.text-center{
+    margin: 2em 0;
+    color: $brown;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+  }
+}
