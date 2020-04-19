@@ -63,24 +63,52 @@ $brown: #8f6e14;
   h5{
     color: $brown;
   }
-  
 }
 
 .container-about-seeme{
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  .img-intro{
+  .img-intro, 
+  .img-historic{
     margin: 1.5em auto;
     box-shadow: 0 10px 40px rgba(0, 0, 0, .3);
   }
-  h2.title.text-center{
-    margin: 2em 0;
+  h2, 
+  h3, 
+  h4{
+    text-align: center;
+    margin: 2em auto;
     color: $brown;
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
+  }
+  .sub-content{
+    margin: 3em 2em;
+    .inner_sub-content{
+      padding: 5px; 
+      margin-top: 2em;
+      button{
+        margin: 50px auto;
+        display:flex;
+      }
+    }
+  }
+  .chiffres{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    h4{
+      text-align: center;
+    }
+    .ico{
+      width: 100px;
+      >img{
+        width: 100px;
+      }
+    }
   }
 }

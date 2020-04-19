@@ -76,8 +76,33 @@ fr:
     title: "A propos de nous"
     story: 
       title: "Notre histoire"
-      paragraph_one: "Imane El Kart est du genre entière. Alors plutôt que d’offrir un canapé pour quelques heures à une ou deux migrants du parc Maximilien, elle a ouvert la porte de sa maison – inoccupée en attente de travaux – en grand. Tout grand."
+      paragraph_one_html: | 
+       On regardait les infos, mais on se sentait démunis. Et puis tout à coup, la crise n’était pas dans un endroit lointain et complexe mais au coin de la rue. 
+       Ils ont besoin d’un endroit et moi je venais d’acheter une maison à Anderlecht. 
+       Imane El Kart est du genre entière. Alors plutôt que d’offrir un canapé pour quelques heures à une ou deux migrants du parc Maximilien, elle a ouvert la porte de sa maison – inoccupée en attente de travaux – en grand. Tout grand.
       article: "Lien vers l'article complet"
+      maison_francois: "Maison François"
+      maison_francois_subtitle: "14 mois d’histoire et d’espoir"
+      paragraph_two_html: |
+       Marina Gutiérrez, notre plus grande source est la voix de la sagesse.
+       Clarisse Jeghers, cette douce artiste au visage d’ange qui pourrait à force de volonté changer le monde, amener un facho à porter un panneau le poing levé et le cœur dans la main.
+       Delphine L’Angevine, ce petit bout de femme qui arrive chargée de sacs dans les bus et qui court aux urgences avec Clarisse pour soigner nos gars un vendredi soir , et à qui cela ne fait pas peur du tout.
+       Alexandra Valsamides, citoyenne du monde aux origines libanaise, belge, hollandaise, et grecque. Les gars se souviendront de ses plats de légumes bien de chez nous cuisinés comme par une mère.
+       Bien évidement Alexandra ce que tu ignores c’est que dès que tu avais le dos tourné ils y ajoutaient une tonne d’épices ;-)
+       Anne Callens, elle est devenue psy pour aider le monde à devenir meilleur et continue son engagement dans notre maison pour les mêmes raisons.
+       Plusieurs de nos gars m’ont avoué se sentir de nouveau quelqu’un quand Anne leur parle, sûrement grâce à son grand respect des autres et sa grande diplomatie.
+       Catherine, la dernière arrivée dans le groupe des bénévoles, comment vous dire... c’est tout simplement une superwoman!
+       Elle peut accompagner un gars pour une inscription en cours de langue, un autre aux urgences et en passant, aller chercher des dons en une seule journée.
+       Catherine Sorel, notre professeur  de langue particulier qui se déplace malgré sa petite santé toutes les semaines.
+      paragraph_three_html: |
+       Nous avons reçu tout les jours plusieurs personnes de la PU pour prendre leur douche, laver leur linge, partager le repas avec nous avant de repartir jusqu’à ce qu’un lit se libère chez nous.
+       Cette maison a offert tout son amour son temps et son énergie en préférant l’hébergement à long terme; ainsi nous avons appris à connaître nos invités, à connaître leurs parcours, leurs rêves, leurs familles, leurs blessures.
+       En les connaissant si bien nous avons pu nous adapter à chacun de ces hommes, pour les soutenir, les informer en les aiguillant vers d’autres associations compétentes dans les domaines de leurs attentes.
+       chiffres: "La maison François c'est: "
+      icon_one: "150 personnes hébergées"
+      icon_two: "Durant 12 600 nuits"
+      icon_three: "16 000 repas"
+      icon_four: "Accompagnement de 6 personnes dans leurs démarches de demande d’Asile "
      
 
 

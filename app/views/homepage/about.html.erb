@@ -1,4 +1,4 @@
-<div class="container-about-seeme">
+<div class="container-fluid container-about-seeme">
   <h2 class="title text-center"><%= t('about.title') %></h2>
   <div class="row">
     <div class="col-12">
@@ -12,18 +12,68 @@
     <div></div>
     <div></div>
   </div>
-  <div class="row">
+  <div class="row sub-content">
     <div class="col-md-4">
-      <div class="">
-        <h4><%= t('about.story.title') %></h4>
-        <p><%= t('about.story.paragraph_one') %></p>
-        <%= link_to t('about.story.article'), "https://plus.lesoir.be/131564/article/2017-12-29/imane-cest-extraordinaire-de-pouvoir-offrir-un-bout-de-vie-normale", target: "_blank"  %>
+      <div class="inner_sub-content">
+        <h3><%= t('about.story.title') %></h3>
+        <p><%= t('about.story.paragraph_one_html') %></p>
+        <button class="text-center button_seeme"><%= link_to t('about.story.article'), "https://plus.lesoir.be/131564/article/2017-12-29/imane-cest-extraordinaire-de-pouvoir-offrir-un-bout-de-vie-normale", target: "_blank"  %></button>
+        <%= image_tag("about_us_historic.jpg", class: "img-fluid img-historic", alt: "Famille accuillie à la maison François") %>
       </div>
     </div>
-    <div class="col-d-8">
-      <%= image_tag "" %>
+    <div class="col-md-8">
+      <div class="row">
+        <%= image_tag("about_us_historic.jpg", class: "img-fluid img-historic", alt: "Famille accuillie à la maison François") %>
+      </div>
+      <div class="row">
+        <div class="col-12"><h3 class="text-center"><%= t('about.story.maison_francois') %></h3></div>
+        <div class="col-12"><h4><%= t('about.story.maison_francois_subtitle') %></h4></div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <p><%= t('about.story.paragraph_two_html') %></p>
+        </div>
+        <div class="col-6">
+         <p><%= t('about.story.paragraph_three_html') %></p>
+        </div>
+      </div>
     </div>
   </div>
+  <div class="row chiffres">
+    <div class="col-12"><h4><%= t('about.story.chiffres') %></h4></div>
+    <div class="col-6 col-md-3">
+      <div class="ico">
+        <%= image_tag("teamwork.jpg", class: "img-one", alt: "") %>
+      </div>
+      <span><%= t('about.story.icon_one') %></span>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="ico">
+        <%= image_tag("night.jpg", class: "img-two", alt: "") %>
+      </div>
+      <span><%= t('about.story.icon_two') %></span>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="ico">
+        <%= image_tag("meal.jpg", class: "img-three", alt: "") %>
+      </div>
+      <span><%= t('about.story.icon_three') %></span>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="ico">
+        <%= image_tag("execution.jpg", class: "img-four", alt: "") %>
+      </div>
+      <span><%= t('about.story.icon_four') %></span>
+    </div>
+  </div>
+  <div class="lines">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
   <div class="row">
+    
   </div>
 </div>
