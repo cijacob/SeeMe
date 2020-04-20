@@ -77,9 +77,9 @@ fr:
     story: 
       title: "Notre histoire"
       paragraph_one_html: | 
-       On regardait les infos, mais on se sentait démunis. Et puis tout à coup, la crise n’était pas dans un endroit lointain et complexe mais au coin de la rue. 
+       "[...]On regardait les infos, mais on se sentait démunis. Et puis tout à coup, la crise n’était pas dans un endroit lointain et complexe mais au coin de la rue. 
        Ils ont besoin d’un endroit et moi je venais d’acheter une maison à Anderlecht. 
-       Imane El Kart est du genre entière. Alors plutôt que d’offrir un canapé pour quelques heures à une ou deux migrants du parc Maximilien, elle a ouvert la porte de sa maison – inoccupée en attente de travaux – en grand. Tout grand.
+       Imane El Kart est du genre entière. Alors plutôt que d’offrir un canapé pour quelques heures à une ou deux migrants du parc Maximilien, elle a ouvert la porte de sa maison – inoccupée en attente de travaux – en grand. Tout grand.[...]"
       article: "Lien vers l'article complet"
       maison_francois: "Maison François"
       maison_francois_subtitle: "14 mois d’histoire et d’espoir"
@@ -98,13 +98,27 @@ fr:
        Nous avons reçu tout les jours plusieurs personnes de la PU pour prendre leur douche, laver leur linge, partager le repas avec nous avant de repartir jusqu’à ce qu’un lit se libère chez nous.
        Cette maison a offert tout son amour son temps et son énergie en préférant l’hébergement à long terme; ainsi nous avons appris à connaître nos invités, à connaître leurs parcours, leurs rêves, leurs familles, leurs blessures.
        En les connaissant si bien nous avons pu nous adapter à chacun de ces hommes, pour les soutenir, les informer en les aiguillant vers d’autres associations compétentes dans les domaines de leurs attentes.
-       chiffres: "La maison François c'est: "
+      chiffres: "La maison François c'est: "
       icon_one: "150 personnes hébergées"
       icon_two: "Durant 12 600 nuits"
       icon_three: "16 000 repas"
       icon_four: "Accompagnement de 6 personnes dans leurs démarches de demande d’Asile "
-     
-
+      title_thanks: "Merci ..."
+      title_adventure_continue: "L'aventure continue "
+      para_one: "Merci merci de tout cœur à vous de nous avoir permis de mener cette aventure.
+      Merci à François de Borchgrave pour avoir si généreusement prêté sa maison, merci à la plateforme d’avoir réunie toutes ces personnes sur une même page autour d’un même projet, l’humain.
+      Merci à Clarisse, Marina, Delphine, Alexandra, Anne, Catherine, Catherine de m’avoir accompagné jusqu’au bout. Le nombre de gars qui augmente chaque jours pour devenir 30 personnes ne vous a pas épuisé, rien ne vous a fatigué, vous avez été formidables.
+      Merci aux voisins de nous avoir soutenu, merci pour votre ouverture d’esprit merci d’avoir protégé nos gars."
+      para_two: "Merci à Samir Ouikassi pour avoir conseillé nos gars et pour avoir joué mon psy,  mon pauvre comme si tu n’avais pas assez de boulot comme ça. ;-)
+      Merci À Colin Fatman de m’avoir taggé des qu’il y avait un post susceptible de m’intéresser.
+      Merci à Fatima Aljaroudi d’avoir sensibilisé toute une mosquée avec toutes ses étudiantes pour nous soutenir.
+      Merci à Lina Achaoui l’avocate et  à Eveline Dal toutes les deux activistes qui défendent farouchement nos gars dès qu’on les arrêtent elles nous les ramènent à la maison.
+      Merci à tout les autres avocats pour tout le travail qu’ils font.
+      Merci pour vos dons financiers."
+      para_three: "Je ne peux remercier tout le monde malheureusement car il me faudrait 100 pages je n’oublie pas tout ceux qui nous ont aidé c’est juste impossible de citer tout le monde.
+      Merci à vous pour Abu Omar qui est en Angleterre et qui grâce à vous a pu ramener ses 5 enfants de Syrie, aujourd’hui ils vivent une vie de famille normale.
+      Et pour Alaa et Wassim qui ont déjà leur asile en Belgique, et vivent déjà dans leur petit studio en attente que leur femme et enfant viennent les rejoindre.
+      Merci pour Abu-Maher qui a aussi depuis un mois l’asile et pour tout les autres qui ont rejoins leurs Familles en Angleterre ou ailleurs."
 
 
 

@@ -96,18 +96,35 @@ $brown: #8f6e14;
         display:flex;
       }
     }
+    .img_content{
+      max-height: 450px;
+      img{
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+      }
+    }
   }
   .chiffres{
     width: 100vw;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 60px;
     h4{
       text-align: center;
     }
-    .ico{
-      width: 100px;
-      >img{
+    .col-6.col-md-3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      .ico{
         width: 100px;
+        margin-bottom: 15px;
+        >img{
+          width: 100px;
+        }
       }
     }
   }
