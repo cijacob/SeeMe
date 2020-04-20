@@ -23,7 +23,9 @@
     </div>
     <div class="col-md-8">
       <div class="row">
-        <%= image_tag("about_us_historic.jpg", class: "img-fluid img-historic", alt: "Famille accuillie à la maison François") %>
+        <div class="img_content">
+          <%= image_tag("tempory_picture_about-us.jpg", class: "img-fluid img-solidarity", alt: "Famille accuillie à la maison François") %>
+        </div>
       </div>
       <div class="row">
         <div class="col-12"><h3 class="text-center"><%= t('about.story.maison_francois') %></h3></div>
@@ -74,6 +76,20 @@
     <div></div>
   </div>
   <div class="row">
-    
+    <div class="col-12">
+      <h3><%= t('about.story.title_thanks') %></h3>
+    </div>
+    <div class="col-6 col-md-4">
+      <%= t('about.story.para_one') %>
+    </div>
+    <div class="col-6 col-md-4">
+      <%= t('about.story.para_two') %>
+    </div>
+    <div class="col-6 col-md-4">
+      <%= t('about.story.para_three') %>
+    </div>
+  </div>
+  <div class="col-12">
+    <h3><%= t('about.story.title_adventure_continue') %></h3>
   </div>
 </div>

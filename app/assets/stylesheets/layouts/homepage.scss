@@ -96,11 +96,20 @@ $brown: #8f6e14;
         display:flex;
       }
     }
+    .img_content{
+      max-height: 450px;
+      img{
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+      }
+    }
   }
   .chiffres{
     width: 100vw;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 60px;
     h4{
       text-align: center;
     }
@@ -117,10 +126,21 @@ $brown: #8f6e14;
         }
       }
       span{
-        font-weight: bold;
-        text-align: center;
-        margin: auto;
+      font-weight: bold;
+      text-align: center;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      .ico{
+        width: 100px;
+        margin-bottom: 15px;
+        >img{
+          width: 100px;
+        }
       }
     }
   }
+}
 }
