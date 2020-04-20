@@ -104,10 +104,22 @@ $brown: #8f6e14;
     h4{
       text-align: center;
     }
-    .ico{
-      width: 100px;
-      >img{
+    .col-6.col-md-3{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 30px;
+      .ico{
         width: 100px;
+        margin: auto;
+        >img{
+          width: 90px;
+        }
+      }
+      span{
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
       }
     }
   }
