@@ -18,5 +18,10 @@ module SeeMe
     config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
     config.i18n.default_locale = :fr
     config.i18n.available_locales = [:fr, :en, :nl, :ar ]
+
+    # For version 1.1.0 and above of the `i18n` gem:
+    config.i18n.fallbacks = [I18n.default_locale]
+    # Below version 1.1.0 of the `i18n` gem:
+    config.i18n.fallbacks = true
   end
 end

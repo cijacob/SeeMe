@@ -122,4 +122,10 @@ fr:
       Merci pour Abu-Maher qui a aussi depuis un mois l’asile et pour tout les autres qui ont rejoins leurs Familles en Angleterre ou ailleurs."
 
 
+  activerecord:
+    attributes:
+      project:
+        title: "Essai"
+
+
 
