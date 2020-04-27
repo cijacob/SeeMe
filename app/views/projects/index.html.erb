@@ -1,4 +1,4 @@
-<div class="container_projects">
+<div class="container_projects" data-turbolinks="false">
   <h2><%= t('project.index.title') %></h2>
 
   <div class="content">
@@ -6,9 +6,11 @@
       <ul>
         <% @projects.each do |project| %>
           <li>
-            <div class="block_presentation" onClick="changeContent(<%= project.id %>)">
-              <%= image_tag project.image, class: "project_img" %>
-              <div class="project_title"><h4><%= project.title %></h4></div>
+            <div class="block_presentation">
+              <a href="#project-<%= project.id %>">
+                <%= image_tag project.image, class: "project_img" %>
+                <div class="project_title"><h4><%= project.title %></h4></div>
+              </a>
             </div>
           </li>
         <% end %>
@@ -24,7 +26,7 @@
     </div>
     <div class="more_informations_content">
       <% @projects.each do |project| %>
-        <div class="inner_more_informations_content" id="project-<%= project.id %>" > 
+        <div class="inner_more_informations_content project" id="project-<%= project.id %>" > 
           <h3><%= project.title %></h3>
           <div class="bloc_description">
             <p><%= project.description %></p>

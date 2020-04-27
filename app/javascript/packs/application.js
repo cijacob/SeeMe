@@ -20,18 +20,3 @@ import "bootstrap"
 import "@fortawesome/fontawesome-free/js/all";
 import "../stylesheets/application"
 
-
-
-document.addEventListener('DOMContentLoaded', (event) => {
-  $( document ).ready(function() {
-    console.log( "document loaded" );
-    informations_content = document.querySelectorAll(".inner_more_informations_content");
-    let element = document.getElementById("project-1");
-    element.classList.add("active");
-    console.log(element)
-    function changeContent(i) {
-      document.querySelector(".active").classList.remove("active");
-      informations_content[i].classList.add("active");
-    }
-  });
-})

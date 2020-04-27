@@ -71,6 +71,7 @@ fr:
   project:
     index:
       title: "Tous les projets que nous avons mis en place"
+      inscription: "Inscription"
 
   about:
     title: "A propos de nous"

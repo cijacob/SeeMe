@@ -102,6 +102,7 @@ en:
   project:
     index:
       title: "All our projects"
+      inscription: "Register"
 
   about:
     title: "About us"
