@@ -4,6 +4,7 @@ fr:
     agir: "Je veux agir"
     projets: "Découvrez nos projets"
     soutenir: "Soutenez-nous"
+    presse: "On parle de nous dans la presse"
     en: "en"
     fr: "fr"
     nl: "nl"
@@ -120,6 +121,12 @@ fr:
       Merci à vous pour Abu Omar qui est en Angleterre et qui grâce à vous a pu ramener ses 5 enfants de Syrie, aujourd’hui ils vivent une vie de famille normale.
       Et pour Alaa et Wassim qui ont déjà leur asile en Belgique, et vivent déjà dans leur petit studio en attente que leur femme et enfant viennent les rejoindre.
       Merci pour Abu-Maher qui a aussi depuis un mois l’asile et pour tout les autres qui ont rejoins leurs Familles en Angleterre ou ailleurs."
+  
+  trainees:
+    new:
+      title: "inscription"
+    show:
+      title: "Vous êtes bien inscrit"
 
 
 

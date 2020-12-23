@@ -1,0 +1,41 @@
+<div class="container_trainees" data-turbolinks="false">
+  <h2><%= t('trainees.new.title') %></h2>
+
+  <div class="content">
+    <div class="header_presentation">
+      <%= form_with model: @trainee  do |f| %>
+        <%= debug f.class %>
+        <p>
+          <%= f.label :name %>
+          <%= f.text_field :name %>
+        </p>
+        <p>
+          <%= f.label :lastname %>
+          <%= f.text_field :lastname %>
+        </p>
+        <p>
+          <%= f.label :email %>
+          <%= f.email_field :email %>
+        </p>
+        <p>
+          <%= f.label :telephone %>
+          <%= f.telephone_field :telephone %>
+        </p>
+        <div>
+          <%= f.fields_for :projects do |project| %>
+            <%= project.collection_radio_buttons :project_id, Project.all, :id, :title %>
+          <% end %>
+        </div>
+        <%= f.submit "Submit" %>
+      <% end %>
+    </div>
+    <div class="lines">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</div>
+

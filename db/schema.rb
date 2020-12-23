@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_11_122115) do
+ActiveRecord::Schema.define(version: 2020_12_22_103449) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,6 +23,17 @@ ActiveRecord::Schema.define(version: 2020_04_11_122115) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "project_translations", force: :cascade do |t|
+    t.bigint "project_id", null: false
+    t.string "locale", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "title"
+    t.text "description"
+    t.index ["locale"], name: "index_project_translations_on_locale"
+    t.index ["project_id"], name: "index_project_translations_on_project_id"
+  end
+
   create_table "projects", force: :cascade do |t|
     t.string "title"
     t.text "description"
@@ -31,4 +42,37 @@ ActiveRecord::Schema.define(version: 2020_04_11_122115) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "students", force: :cascade do |t|
+    t.string "name"
+    t.string "lastname"
+    t.integer "telephone"
+    t.string "email"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.bigint "project_id"
+    t.index ["project_id"], name: "index_students_on_project_id"
+  end
+
+  create_table "trainees", force: :cascade do |t|
+    t.string "name"
+    t.string "lastname"
+    t.string "email"
+    t.integer "telephone"
+    t.date "birthdate"
+    t.boolean "sexe"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.bigint "project_id", null: false
+    t.index ["project_id"], name: "index_trainees_on_project_id"
+  end
+
+  create_table "translation_projects", force: :cascade do |t|
+    t.string "title"
+    t.text "description"
+    t.boolean "migrate_data"
+    t.boolean "true"
+  end
+
+  add_foreign_key "students", "projects"
+  add_foreign_key "trainees", "projects"
 end

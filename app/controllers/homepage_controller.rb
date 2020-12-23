@@ -8,4 +8,7 @@ class HomepageController < ApplicationController
 
   def private_life
   end 
+
+  def press 
+  end
 end

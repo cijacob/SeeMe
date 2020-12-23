@@ -1,0 +1,24 @@
+<h1>Students#new</h1>
+<p>Find me in app/views/students/new.html.erb</p>
+
+<%= form_for @student do |f| %>
+  <p>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </p>  
+  <P>
+    <%= f.label :lastname %>
+    <%= f.text_field :lastname %>
+  </p>
+  <P>
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+  </p>
+  <P>
+    <%= f.label :telephone %>
+    <%= f.text_field :telephone %>
+  </p>
+  <%= f.collection_radio_buttons :project_id, Project.all, :id, :title %>
+
+  <%= f.submit "Inscription" %>
+<% end %>

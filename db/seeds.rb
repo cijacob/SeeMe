@@ -8,7 +8,7 @@
 
 projects = Project.create([
   {title: "Nakanek", 
-   description: "Nakanek Syrian food. Notre projet a pour obejctif d'être un projet socioprofesionnel pour réfugiés. Nous vous proposons une cuisine syrienne, aussi raffinnée que saine, issue de l'agriculture biologique",
+   description: "Nakanek Syrian food. Notre projet a pour objectif d'être un projet socioprofesionnel pour les réfugiés. Nous vous proposons une cuisine syrienne, aussi raffinnée que saine, issue de l'agriculture biologique",
    image: "project_nakanek.jpg"
   }, 
   {title: "Atelier couture", 
