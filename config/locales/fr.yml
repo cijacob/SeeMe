@@ -122,11 +122,23 @@ fr:
       Et pour Alaa et Wassim qui ont déjà leur asile en Belgique, et vivent déjà dans leur petit studio en attente que leur femme et enfant viennent les rejoindre.
       Merci pour Abu-Maher qui a aussi depuis un mois l’asile et pour tout les autres qui ont rejoins leurs Familles en Angleterre ou ailleurs."
   
-  trainees:
+  students:
     new:
       title: "inscription"
+      description: | 
+        Merci de remplir ce formulaire afin de valider votre souhait de rejoindre une de nos formations à but socio-économique 
+        Nous reprendrons contact avec vous dans les plus brefs délais, afin de vous rencontrez et discuter sur les possibilités qui pourraient vous être offertes.
+      submit_button: "s'inscrire"
+      placeholder:
+        student:
+          name: "Prénom"
+          lastname: "Nom de famille"
     show:
-      title: "Vous êtes bien inscrit"
+      title: "Vous êtes bien inscrit "
+      description: "Nous vous recontactons dès que possible!"
+
+
+  
 
 
 
