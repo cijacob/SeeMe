@@ -1,31 +1,35 @@
 <div class="container container_student">
   <div class="hero-title">
-    <div class="col-8">
+    <div class="col-8 ">
       <h2><%= t('students.new.title') %></h2>
     </div>
     <div class="col-4">
-      <%= image_tag("") %>
+      <%= image_tag("subscription.jpg") %>
     </div>
   </div>
   <p><%= t('students.new.description') %></p>
-  <div class="">
-    <%= form_for @student, :html => {:class => "form_inscription"} do |f| %>
+  <%= form_for @student, :html => {:class => "form_inscription"} do |f| %>
+    <div class="block_name">
       <p>
-        <%= f.text_field :name, class: "name", :placeholder => "t('students.new.placeholder.name')" %>
+        <%= f.text_field :name, class: "name", :placeholder => "#{t('students.new.name')}", class: "col-10" %>
+        <i class="fas fa-asterisk"></i>
       </p>  
-      <P>
-        <%= f.text_field :lastname, placeholder: true %>
+      <p>
+        <%= f.text_field :lastname, :placeholder => "#{t('students.new.lastname')}", class: "col-10" %>
+        <i class="fas fa-asterisk"></i>
       </p>
-      <P>
-        <%= f.text_field :email, placeholder: true%>
-      </p>
-      <P>
-        <%= f.text_field :telephone, placeholder: true %>
-      </p>
-      <div>
-        <%= f.collection_radio_buttons :project_id, Project.all, :id, :title, { :class =>  "radio_button"} %>
-      </div>
-      <%= f.submit t('students.new.submit_button'), class: "btn button_seeme"  %>
-    <% end %>
-  </div>
+    </div>
+    <p>
+      <%= f.text_field :email, :placeholder => "#{t('students.new.email')}", class: "col-11" %>
+      <i class="fas fa-asterisk"></i>
+    </p>
+    <p>
+      <%= f.text_field :telephone, :placeholder => "#{t('students.new.phone')}", class: "col-11"  %>
+      <i class="fas fa-asterisk"></i>
+    </p>
+    <div class="radio_buttons_block">
+      <%= f.collection_radio_buttons :project_id, Project.all, :id, :title,  html: { class: "new_post" }, :class => 'input__field input__field-nile radio' %>
+    </div>
+    <%= f.submit t('students.new.submit_button'), class: "col-12 btn button_seeme"  %>
+  <% end %>
 </div>
