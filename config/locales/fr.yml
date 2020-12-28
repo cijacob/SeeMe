@@ -5,6 +5,7 @@ fr:
     projets: "Découvrez nos projets"
     soutenir: "Soutenez-nous"
     presse: "On parle de nous dans la presse"
+    contact: "Contactez-nous"
     en: "en"
     fr: "fr"
     nl: "nl"
@@ -130,6 +131,9 @@ fr:
       Cette vidéo traite de Santé mentale et exil 19.12.20 avec Imane El Kart fondatrice de See Me,
       Julien Blanc tuteur MENA et 
       Joelline Ogunade, psychologue clinicienne spécialisée en clinique du trauma et de l'exil!
+
+  contact: 
+    title: Contactez-nous
 
   students:
     new:
