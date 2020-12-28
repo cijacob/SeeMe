@@ -6,6 +6,7 @@ fr:
     soutenir: "Soutenez-nous"
     presse: "On parle de nous dans la presse"
     contact: "Contactez-nous"
+    support: "Aidez-nous"
     en: "en"
     fr: "fr"
     nl: "nl"
@@ -134,6 +135,9 @@ fr:
 
   contact: 
     title: Contactez-nous
+
+  support: 
+    title: "Aidez-nous!"
 
   students:
     new:

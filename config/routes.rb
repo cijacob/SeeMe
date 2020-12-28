@@ -12,7 +12,7 @@ Rails.application.routes.draw do
     get 'private_life' => "homepage#private_life"
     get 'press' => "homepage#press"
     get 'contact' => "homepage#contact"
-    
+    get 'support' => "homepage#support"
     resources :homepage , only: [:index, :about]
     resources :trainees
     resources :projects
