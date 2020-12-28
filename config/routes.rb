@@ -11,6 +11,8 @@ Rails.application.routes.draw do
     get 'about' => "homepage#about"
     get 'private_life' => "homepage#private_life"
     get 'press' => "homepage#press"
+    get 'contact' => "homepage#contact"
+    
     resources :homepage , only: [:index, :about]
     resources :trainees
     resources :projects
