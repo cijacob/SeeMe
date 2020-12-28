@@ -1,3 +1,26 @@
-<div class="container-flui">
-
+<div class="container container-press">
+  <div class="hero-title">
+    <div class="col-8">
+      <h2><%=  t('press.title') %></h2>
+    </div>
+    <div class="col-4">
+      <%= image_tag "" %>
+    </div>
+  </div>
+  <div class="content">
+    <div class="media">
+      <div class="media_header">
+        <div class="media__title">
+          <h4>
+            <%= t('press.media-title') %> 
+          </h4>
+          <span><i class="far fa-calendar-alt"></i><%= t('press.date') %></span>
+        </div>
+        <%= link_to 'https://www.youtube.com/watch?fbclid=IwAR31YyKhWi6sOlivfpTB2TWx42335eqVlsFQwNzwYVr-xGb7LypgJVgvndc&v=l266h7RW6fc&feature=youtu.be', target: "_blank" do %>
+          <%= image_tag("youtube-icon-logo.png", class: "little_img_press") %>
+        <% end %>
+      </div>
+      <p class="description"><%= t('press.description') %></p>
+    </div>
+  </div>
 </div>
