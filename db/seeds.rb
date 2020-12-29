@@ -20,4 +20,4 @@ projects = Project.create([
    image: "project_it.jpg"
   }
 ])
-AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
+AdminUser.create!(email: 'i.elkart@seeme-refugees.com', password: 'SMRefugees2020', password_confirmation: 'SMRefugees2020') if Rails.env.development?
