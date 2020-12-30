@@ -2,3 +2,4 @@
 
 
 //= link_directory ../stylesheets .css
+//= @import "students.scss"
