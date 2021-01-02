@@ -146,64 +146,69 @@ $grey: #455965;
   }
 }
 .container-press{
-  .media{
-    max-width: 400px;
+  .content-medias{
     display: flex;
-    flex-direction: column;
-    padding: 1.5em;
-    box-shadow: 0px 2px 2px rgba(54, 56, 76, 0.1), 0px 0px 3px 2px rgba(54, 56, 76, 0.02);
-    .media_header{
+    flex-wrap: wrap;
+    .media{
+      max-width: 350px;
       display: flex;
-      flex-direction: row;
-      margin: auto;
-      align-items: center;
-      .media__title{
-        h4{
-          color: $brown;
-          padding-top: .5em;
-        }
-        span{
-          color: $grey;
-          font-size: 12px; 
-          font-style: italic;
-          position: relative; 
-          top: -8px;
-          left: 6px; 
-          .fa-calendar-alt{
-            color: $grey;
-            margin-right: .3em;
-          }
-          a{
-            display: flex; 
-            align-items: center;
-          }
-        }
-      &::before,
-      &::after{
-        display: block;
-        content:""; 
-        height: 1.5px;
-        color: $grey;
-        width: 22%;
-        position: absolute;
-        border: 1px solid $grey;
+      flex-direction: column;
+      padding: 1.5em;
+      box-shadow: 0px 2px 2px rgba(54, 56, 76, 0.1), 0px 0px 3px 2px rgba(54, 56, 76, 0.02);
+      margin: .5em;
+      .media_header{
+        display: flex;
+        flex-direction: row;
         margin: auto;
+        align-items: center;
+        .media__title{
+          h4{
+            color: $brown;
+            padding-top: .5em;
+          }
+          span{
+            color: $grey;
+            font-size: 12px; 
+            font-style: italic;
+            position: relative; 
+            top: -8px;
+            left: 6px; 
+            .fa-calendar-alt{
+              color: $grey;
+              margin-right: .3em;
+            }
+            a{
+              display: flex; 
+              align-items: center;
+            }
+          }
+        &::before,
+        &::after{
+          display: block;
+          content:""; 
+          height: 1.5px;
+          color: $grey;
+          width:300px;
+          position: absolute;
+          border: 1px solid $grey;
+          margin: auto;
+          }
+        }
+        .little_img_press{
+          width:50px;
+          height:50px;
+          margin: .5em 1em;
         }
       }
-      .little_img_press{
-        width:50px;
-        height:50px;
-        margin: .5em 1em;
+      
+      p{
+        text-align: center;
+        color: $grey;
+        line-height: 1.2;
+        letter-spacing: 0.2px;
+        margin-top: 20px;
+        font-size: 15px;
       }
-    }
-    
-    p{
-      text-align: center;
-      color: $grey;
-      line-height: 1.2;
-      letter-spacing: 0.2px;
-      margin-top: 20px;
-      font-size: 15px;
     }
   }
 }

@@ -7,7 +7,7 @@
       <%= image_tag "" %>
     </div>
   </div>
-  <div class="content">
+  <div class="content content-medias">
     <div class="media">
       <div class="media_header">
         <div class="media__title">
@@ -22,5 +22,52 @@
       </div>
       <p class="description"><%= t('press.description') %></p>
     </div>
+
+    <div class="media">
+      <div class="media_header">
+        <div class="media__title">
+          <h4>
+            <%= t('press.media-title-two') %> 
+          </h4>
+          <span><i class="far fa-calendar-alt"></i><%= t('press.date-two') %></span>
+        </div>
+        <%= link_to 'https://plus.lesoir.be/131564/article/2017-12-29/imane-cest-extraordinaire-de-pouvoir-offrir-un-bout-de-vie-normale', target: "_blank" do %>
+          <%= image_tag("lesoir-logo.png", class: "little_img_press") %>
+        <% end %>
+      </div>
+      <p class="description"><%= t('press.description-two') %></p>
+    </div>
+
+    <div class="media">
+      <div class="media_header">
+        <div class="media__title">
+          <h4>
+            <%= t('press.media-title-three') %> 
+          </h4>
+          <span><i class="far fa-calendar-alt"></i><%= t('press.date-three') %></span>
+        </div>
+        <%= link_to 'https://plus.lesoir.be/277978/article/2020-02-06/grand-format-lhistoire-dun-bebe-syrien-arrive-presque-tout-seul-en-belgique?referer=%2Farchives%2Frecherche%3Fdatefilter%3Dlastyear%26sort%3Ddate%2520desc%26word%3Db%25C3%25A9b%25C3%25A9%2520syrien', target: "_blank" do %>
+          <%= image_tag("lesoir-logo.png", class: "little_img_press") %>
+        <% end %>
+      </div>
+      <p class="description"><%= t('press.description-three') %></p>
+    </div>
+
+    <div class="media">
+      <div class="media_header">
+        <div class="media__title">
+          <h4>
+            <%= t('press.media-title-four') %> 
+          </h4>
+          <span><i class="far fa-calendar-alt"></i><%= t('press.date-four') %></span>
+        </div>
+        <%= link_to 'https://plus.lesoir.be/277978/article/2020-02-06/grand-format-lhistoire-dun-bebe-syrien-arrive-presque-tout-seul-en-belgique?referer=%2Farchives%2Frecherche%3Fdatefilter%3Dlastyear%26sort%3Ddate%2520desc%26word%3Db%25C3%25A9b%25C3%25A9%2520syrien', target: "_blank" do %>
+          <%= image_tag("bruzz_logo.png", class: "little_img_press") %>
+        <% end %>
+      </div>
+      <p class="description"><%= t('press.description-four') %></p>
+    </div>
+
+
   </div>
 </div>
