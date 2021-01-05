@@ -236,16 +236,37 @@ $grey: #455965;
       width: 100%; 
       .header_section{
         display: flex;
-        h2.title_link{
+        h3:first-child a{
+          background-color: $brown;
+        }
+        h3:last-child a{
+          background-color: $grey;
+        }
+        h3.title_link{
           margin: auto;
           a{
-            color: $brown;
+            color: white;
             text-decoration: none;
+            padding: .15em 1.5em; 
+            border-radius: 30px; 
+            box-shadow: 0 10px 40px rgba(0, 0, 0, .4);
             &:hover{
               text-decoration: none;
             }
           }
         } 
+      }
+      .section{
+        display: none;
+        visibility: hidden;
+        margin: -1em 0 2em ;
+        height: 50vh;
+        border: 1px solid rgba(34,34,34,0.1);
+        padding: 1.2em;
+        &.active{
+          display: block;
+          visibility: visible;
+        }
       }
     }
   }
