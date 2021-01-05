@@ -17,9 +17,9 @@ Rails.application.routes.draw do
     get 'contact' => "homepage#contact"
     get 'support' => "homepage#support"
     resources :homepage , only: [:index, :about]
-    resources :trainees
     resources :projects
     resources :students
+    resources :volunteers
   end
 end
   

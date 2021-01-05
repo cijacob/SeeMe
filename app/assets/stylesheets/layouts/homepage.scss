@@ -221,3 +221,32 @@ $grey: #455965;
     }
   }
 }
+
+.container-support{
+  .hero-title img {
+    padding-top: 1.5em;
+    width: 65%;
+  }
+  .content{
+    p{
+      color:$grey;
+    }
+    .help_content{
+      margin-top: 3em;
+      width: 100%; 
+      .header_section{
+        display: flex;
+        h2.title_link{
+          margin: auto;
+          a{
+            color: $brown;
+            text-decoration: none;
+            &:hover{
+              text-decoration: none;
+            }
+          }
+        } 
+      }
+    }
+  }
+}

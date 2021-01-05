@@ -156,6 +156,21 @@ fr:
 
   support: 
     title: "Aidez-nous!"
+    description: "Vous souhaitez nous aider? "
+    header:
+      volonteer: "Bénévolat"
+      financial: "Aide financière"
+    content: 
+      one: |
+        mlkzfpozkegpokpokù rpoeg por 
+      two: |
+        See Me | Jump for refugees agit sur le terrain pour aider les personnes à se former à un métier et ainsi pouvoir s'intégrer plus facilement. 
+        Cependant comme toute ASBL, il nous faut les moyens d'accomplir cette mission et votre aide nous serait bien précieuse. Vous souhaiter nous aider, merci donc
+        de faire un virement que ce soit de façon sporadique ou régulière, nous vous en remercions infinement! 
+
+        BE
+      form: "Formulaire bénévolat"
+
 
   students:
     new:

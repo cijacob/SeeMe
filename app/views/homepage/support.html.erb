@@ -1,13 +1,31 @@
-<div class="container container-contact">
+<div class="container container-support">
   <div class="hero-title">
     <div class="col-8">
       <h2><%=  t('support.title') %></h2>
     </div>
     <div class="col-4">
-      <%= image_tag "" %>
+      <%= image_tag "support.png" %>
     </div>
   </div>
   <div class="content">
      <p class="description"><%= t('support.description') %></p>
+     <div class="help_content">
+        <div class="header_section">
+          <h2 class="title_link"><%= link_to t('support.header.volonteer'), :anchor => "#content1"%></a></h2>
+          <h2 class="title_link"><%= link_to t('support.header.financial'), :anchor => "#content2" %></a></h2>
+        </div>
+        <section id="default">
+          <%= image_tag "" %>
+        </section>
+        <section id="content1">
+          <div class="description"><%= t('support.content.one') %></div>
+          <div class="cta">
+            <%= link_to t('support.content.form'), new_volunteer_path %>
+          </div>
+        </section>
+        <section id="content2">
+          <%= t('support.content.two') %>
+        </section>
+     </div>
   </div>
 </div>
