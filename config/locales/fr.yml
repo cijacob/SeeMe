@@ -161,16 +161,16 @@ fr:
       volonteer: "Bénévolat"
       financial: "Aide financière"
     content: 
-      one: |
+      one_html: |
         See Me | Jump for refugees agit sur le terrain pour aider les personnes à se former à un métier et ainsi pouvoir s'intégrer plus facilement. 
         Cependant comme toute ASBL, il nous faut les moyens d'accomplir cette mission et votre aide nous serait bien précieuse. Vous souhaiter nous aider, merci donc
-        de faire un virement que ce soit de façon sporadique ou régulière, nous vous en remercions infinement! 
+        de faire un virement que ce soit de façon sporadique ou régulière, nous vous en remercions infinement! </br>
 
         BE76 0689 3692 0195
-        avec pour communication Nom + Prenom + don SeeMe
+        avec pour communication Nom + Prenom + don SeeMe </br>
 
         Nous vous remercions pour votre soutien! 
-      two: |
+      two_html: |
         Vous souhaitez nous aider mais d'une autre manière que financièrment?!
         Pas de problème! Toute aide est la bienvenue, 
         Nous vous invitons à vous rendre sur la page "bénévole"
