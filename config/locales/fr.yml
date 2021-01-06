@@ -158,8 +158,8 @@ fr:
     title: "Aidez-nous!"
     description: "Vous souhaitez nous aider? "
     header:
-      volonteer: "Bénévolat"
-      financial: "Dons"
+      volonteer: "Devenir bénévole"
+      financial: "Faire un don"
     content: 
       one_html: |
         See Me | Jump for refugees agit sur le terrain pour aider les personnes à se former à un métier et ainsi pouvoir s'intégrer plus facilement. 
