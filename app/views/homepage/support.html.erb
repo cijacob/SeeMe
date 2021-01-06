@@ -10,22 +10,27 @@
   <div class="content">
      <p class="description"><%= t('support.description') %></p>
      <div class="help_content">
-        <div class="header_section">
-          <h3 class="btn title_link"><%= link_to t('support.header.volonteer'), :anchor => "#content1"%></a></h3>
-          <h3 class="btn title_link"><%= link_to t('support.header.financial'), :anchor => "#content2" %></a></h3>
+        <div class="tab_container">
+          <button class="btn link_tab_container" data-tab="1">
+            <span><%= t('support.header.financial') %></span>
+          </button>
+          <button class="btn link_tab_container" data-tab="2" >
+            <span><%= t('support.header.volonteer') %></span>
+          </button>
         </div>
-        <section class="section active" id="default">
-          <%= image_tag "" %>
-        </section>
-        <section class="section " id="content1">
-          <div class="description"><%= t('support.content.one') %></div>
-          <div class="cta">
-            <%= link_to t('support.content.form'), new_volunteer_path %>
-          </div>
-        </section>
-        <section class="section " id="content2">
-          <%= t('support.content.two') %>
-        </section>
+        <div class="bloc_section">
+          <section class="section__content section__content1">
+            <div class="description">
+              <p><%= t('support.content.one') %></p>
+            </div>
+          </section>
+          <section class="section__content section__content2">
+            <div class="description">
+              <p><%= t('support.content.two') %></p>
+              <%= link_to t('support.content.form'), new_volunteer_path %>
+            </div>
+          </section>
+        </div>
      </div>
   </div>
 </div>
