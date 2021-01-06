@@ -7,7 +7,6 @@ channels.keys().forEach(channels)
 document.addEventListener("DOMContentLoaded", function(event) {
 
 
-
   const links = document.querySelectorAll('.link_tab_container'); 
   const linksContainer = document.querySelector('.tab_container'); 
   const contents = document.querySelectorAll('.section__content'); 
