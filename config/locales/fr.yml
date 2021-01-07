@@ -199,6 +199,16 @@ fr:
   placeholder:
     student:
       name: "Prénom"
+
+  volunteer:
+    title: "Devenir bénévole"
+    intro_html: |
+      <span class="logo">See Me | Jump for Refugees</span> est une asbl qui majoritairement fonctionne avec l'aide précieuse des bénévoles </br>
+      Nous sommes continuellement à la recherche de bénévoles </br>
+      Si vous êtes interessés, n'hésitez pas à remplir le formualire pour proposer vos services, 
+      nous vous recontacterons dans les plus brefs délais afin de nous organiser! </br>
+
+      Un tout grand merci, d'avance pour votre investissement à venir! 
   
 
 
