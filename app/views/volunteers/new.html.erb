@@ -8,8 +8,19 @@
     </div>
   </div>
   <div class="content">
-     <div class="intro">
+    <div class="intro">
       <p><%= t('volunteer.intro_html') %></p>
-     </div>
+      <ul>
+        <% Section.all.each do |section| %> 
+          <li><%= section.name %></li>
+          <ul>
+        <% Subsection.all.each do |subsection| %>
+          <li><%= subsection.title %></li>
+        <% end %>
+      </ul>
+        <% end %> 
+      </ul>
+      
+    </div>
   </div>
 </div>

@@ -5,8 +5,17 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <%= link_to about_path, class: "nav-link" do %>
+      <li class="nav-item active dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <%= link_to about_path, class: "dropdown-itemnav-link" do %>
+            <%=  t('header.qui_sommes_nous') %>
+          <% end %>
+          <a class="dropdown-item" href="#">Another action</a>
+        </div>
+        <%= link_to about_path, class: "dropdown-itemnav-link" do %>
           <%=  t('header.qui_sommes_nous') %><span class="sr-only">(current)</span>
         <% end %>
       </li>

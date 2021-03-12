@@ -1,10 +1,10 @@
 fr:
   header:
-    qui_sommes_nous: "Qui sommes nous?"
+    qui_sommes_nous: "À propos"
     agir: "Je veux agir"
     projets: "Découvrez nos projets"
     soutenir: "Soutenez-nous"
-    presse: "On parle de nous dans la presse"
+    presse: "Nos actions de sensibilisation"
     contact: "Contactez-nous"
     support: "Aidez-nous"
     en: "en"
@@ -14,9 +14,9 @@ fr:
 
 
   index:
-    before_title: "[Re]"
-    title: "Donner des ailes aux réfugiés ..."
-    intro: "En bâtissant des ponts entre leurs savoir-faire."
+    before_title: "Créateur  "
+    title: "d'activités professionnelles"
+    intro: "pour l'intégration sociale des réfugiés et demandeurs d'asile"
 
 
 
@@ -78,6 +78,28 @@ fr:
 
   about:
     title: "A propos de nous"
+    presentation: 
+      title: "Présentation de l'association"
+      paragraph_one_html: |
+        <strong>SeemMe est un projet d'intégration socio-professionnelle pour réfugiés et demandeurs d'asile.</strong>
+        <span class="str">Notre objectif</span> est de créer des activités professionnelles concrètes, s'adaptant aux profils et aux acquis des réfugiés, à travers lesquelles ils peuvent
+        se <span class="str">se former et travailler à la fois.</span> Afin d'acquérir les compétences nécessaires pour se lancer aisément et avec confiance dans une nouvelle <span class="str">vie active en Belgique.</span></br>
+        <strong>Nous voulons ainsi offrir, aux personnes primo-arrivantes, la possibilité de suivre une formation complète. </strong>
+      paragraph_two_html: |
+        Celle-ci s'étend sur une durée de 12 mois, avec au programme, <span class="str"> un stage socio-professionel rémunéré</span>, et <span class="str"> un parcours d'intération sociale</span>, dont des cours de <span class="str"> citoyenneté</span>, d'<span class="str">initiation au digital</span>
+        ainsi que les indispensables cours de <span class="str">langues</span>. <br>
+        En mettant en place des projets professionalisants concrets tel que <span class="str"> Nakanek</span> notre foodtruck syrien, ou l'<span class="str">atelier de couture</span> en partenariat avec des couturiers belges, 
+        nous donnons la possibilité aux primo-arrivants de <span class="str">se former à un futur emploi.</span><br>
+        Nous leur permettons également d'<span class="str">améliorer leur niveau de français et/ou de néerlandais </span>en suivant des cours, mais également d'<span class="str">entrer en contact avec la population belge </span>soit sur le lieu de l'activité soit àtravers
+        un parcours de citoyenneté. 
+      paragraph_three_html: | 
+        En se basant sur ce qui existe déjà, c'est à dire leur <span class="str">expérience</span>, la <span class="str">formation</span> suivie dans leur pays d'origine, ou leurs <span class="str">passions, nous créons des activités qui leur ressemblent</span>, 
+        pour que leur expérience professionnelle en Belgique soit une activité enrichissante, où ils se sentent épanouis. <br>
+        Ayant partagé le quotidien des personnes arrivées dans notre pays <span, class="str">nous avons pu constater que le principal frein à la poursuite d'une formation était l'impossibilité de conjuguer formation et impératifs économiques.</span><br>
+        Cela afin de subvenir à leurs besoins et dans la plupart des cas aux besoins de leurs familles restées dans leur pays d'origine. 
+      paragraph_four_html: | 
+        <strong>Force est de constater que pour le moment l'absence de solution sur le marché engendre bien trop souvent de précarité, exclusion sociale et travail au noir.</strong><br>
+        La formation professionnelle mise en place par <span class="str">See Me</span> leur permet de conjuguer travail et formation.
     story: 
       title: "Notre histoire"
       paragraph_one_html: | 
@@ -104,7 +126,7 @@ fr:
        En les connaissant si bien nous avons pu nous adapter à chacun de ces hommes, pour les soutenir, les informer en les aiguillant vers d’autres associations compétentes dans les domaines de leurs attentes.
       chiffres: "La maison François c'est: "
       icon_one: "150 personnes hébergées"
-      icon_two: "Durant 12 600 nuits"
+      icon_two: "Durant 12 600 nuitées"
       icon_three: "16 000 repas"
       icon_four: "Accompagnement de 6 personnes dans leurs démarches de demande d’Asile "
       title_thanks: "Merci ..."
@@ -203,11 +225,8 @@ fr:
   volunteer:
     title: "Devenir bénévole"
     intro_html: |
-      <span class="logo">See Me | Jump for Refugees</span> est une asbl qui majoritairement fonctionne avec l'aide précieuse des bénévoles </br>
-      Nous sommes continuellement à la recherche de bénévoles </br>
-      Si vous êtes interessés, n'hésitez pas à remplir le formualire pour proposer vos services, 
-      nous vous recontacterons dans les plus brefs délais afin de nous organiser! </br>
-
+      <span class="logo">Les réfugiés et les demandeurs d’asile</span>  font face à de nombreux défis au quotidien en Belgique. <br>
+      Il existe, toutefois, plusieurs façons de les soutenir et on peut en discuter ensemble. Prenez contact avec nous dés à présent et, ensemble faisons toute la différence.<br>
       Un tout grand merci, d'avance pour votre investissement à venir! 
   
 

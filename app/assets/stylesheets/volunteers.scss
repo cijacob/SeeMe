@@ -2,12 +2,11 @@ $brown: #8f6e14;
 $grey: #455965;
 
 .container-volunteer{
-  display: flex;
   .intro{
     .logo{
       font-size: 1.2em;
       font-weight: bolder;
-      color: $grey;
+      color: $brown;
     }
   }
 }

@@ -1,3 +1,16 @@
+.navbar{
+  .collapse.navbar-collapse{
+    .nav-item a{
+      color: #8f6e14;
+      z-index:1;
+      &:hover{
+        color: white;
+        background-color: #8f6e14;
+        box-shadow: 1px 6px 9px rgba(107,92,54,0.5);
+      }
+    }
+  }
+}
 .langages-list{
   display: flex;
   height: 15vh;
