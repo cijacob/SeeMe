@@ -13,14 +13,8 @@
       <ul>
         <% Section.all.each do |section| %> 
           <li><%= section.name %></li>
-          <ul>
-        <% Subsection.all.each do |subsection| %>
-          <li><%= subsection.title %></li>
-        <% end %>
-      </ul>
         <% end %> 
       </ul>
-      
     </div>
   </div>
 </div>
