@@ -1,6 +1,9 @@
 fr:
   header:
-    qui_sommes_nous: "À propos"
+    about_us: "À propos"
+    qui_sommes_nous: "Présentation"
+    history: "Historique"
+    francois_house: Maison François
     agir: "Je veux agir"
     projets: "Découvrez nos projets"
     soutenir: "Soutenez-nous"

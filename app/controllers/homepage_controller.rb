@@ -11,4 +11,10 @@ class HomepageController < ApplicationController
 
   def press 
   end
+
+  def history
+  end
+
+  def francois_house
+  end 
 end

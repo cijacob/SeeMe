@@ -97,6 +97,11 @@ $grey: #455965;
         margin: 50px auto;
         display:flex;
       }
+      .str{
+        color: $brown; 
+        font-weight: bolder;
+        text-decoration: 1px solid $brown;
+      }
     }
     .img_content{
       max-height: 450px;

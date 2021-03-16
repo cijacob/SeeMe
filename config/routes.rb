@@ -12,11 +12,13 @@ Rails.application.routes.draw do
   scope "(:locale)", locale: /fr|en|nl|ar/ do
     root "homepage#index"
     get 'about' => "homepage#about"
+    get 'history' => "homepage#history"
+    get 'francois_house' => "homepage#francois_house"
     get 'private_life' => "homepage#private_life"
     get 'press' => "homepage#press"
     get 'contact' => "homepage#contact"
     get 'support' => "homepage#support"
-    resources :homepage , only: [:index, :about]
+    resources :homepage , only: [:index, :about, :history, :house]
     resources :projects
     resources :students
     resources :volunteers
