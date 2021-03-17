@@ -16,6 +16,9 @@ fr:
     nl: "nl"
     ar: "ar"
 
+  cta:
+    back_hompeage: "Retour sur la page principale"
+
 
   index:
     before_title: "Créateur  "
@@ -252,8 +255,9 @@ fr:
       email: "Email"
       phone: "Téléphone"
     show:
-      title: "Vous êtes bien inscrit "
+      title: "Merci pour votre inscription "
       description: "Nous vous recontactons dès que possible!"
+      description_two: ""
 
   placeholder:
     student:
