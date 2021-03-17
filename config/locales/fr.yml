@@ -173,17 +173,15 @@ fr:
     besoin: 
       title: Nos besoins
       list_html: |
-        <ul> 
-          <li>Des formateurs</li>
-          <li>Un budget pour la rémunération des stagiaires et formateurs</li>
-          <li>Des locaux dédiés aux formations pour nos projets actuels et futurs</li>
-          <li>Un espace cuisine et son matériel pour la formation et préparation des produits dans le cadre de l'activité <span class="str">Nakanek </span></li>
-          <li>Un budget pour l'achat de food-trucks</li>
-          <li>Un atelier de stylisme</li>
-          <li>Un budget pour les frais de gestiob de l'ASBL<li>
-          <li>Des partenariats pour les parcours d'intération sociale. Cela consisterait à avoir des accords avec Actiris, Bruxelles formation, l'ULB, hates écoles. Ces intervenants ou partenaires assureraient les cours de citoyenneté, d'insertion sociale, des cours de langue, l'accès à des métiers ainsi que des cours d'initiation au digital.</li>
-          <li>Pour que nos stages professionnels soient un réel levier dans la vie des réfugiés il est impératif que nos formations soient certifiées et nous avons le besoin pour cela de soutien des autorités compétantes.</li>
-        </ul>
+        <li><span><i class="fa fa-check-square"></i></span>Des formateurs</li>
+        <li><span><i class="fa fa-check-square"></i></span>Un budget pour la rémunération des stagiaires et formateurs</li>
+        <li><span><i class="fa fa-check-square"></i></span>Des locaux dédiés aux formations pour nos projets actuels et futurs</li>
+        <li><span><i class="fa fa-check-square"></i></span>Un espace cuisine et son matériel pour la formation et préparation des produits dans le cadre de l'activité <span class="str">Nakanek </span></li>
+        <li><span><i class="fa fa-check-square"></i></span>Un budget pour l'achat de food-trucks</li>
+        <li><span><i class="fa fa-check-square"></i></span>Un atelier de stylisme</li>
+        <li><span><i class="fa fa-check-square"></i></span>Un budget pour les frais de gestiob de l'ASBL<li>
+        <li><span><i class="fa fa-check-square"></i></span>Des partenariats pour les parcours d'intération sociale. Cela consisterait à avoir des accords avec Actiris, Bruxelles formation, l'ULB, hates écoles. Ces intervenants ou partenaires assureraient les cours de citoyenneté, d'insertion sociale, des cours de langue, l'accès à des métiers ainsi que des cours d'initiation au digital.</li>
+        <li><span><i class="fa fa-check-square"></i></span>Pour que nos stages professionnels soient un réel levier dans la vie des réfugiés il est impératif que nos formations soient certifiées et nous avons le besoin pour cela de soutien des autorités compétantes.</li>
   press:
     title: Nos passages dans les médias
     media-title: 'Santé mentale et exil'
