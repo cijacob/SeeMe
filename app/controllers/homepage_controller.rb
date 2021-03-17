@@ -17,4 +17,7 @@ class HomepageController < ApplicationController
 
   def francois_house
   end 
+
+  def perspectives
+  end
 end

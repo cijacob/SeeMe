@@ -148,7 +148,42 @@ fr:
       Merci à vous pour Abu Omar qui est en Angleterre et qui grâce à vous a pu ramener ses 5 enfants de Syrie, aujourd’hui ils vivent une vie de famille normale.
       Et pour Alaa et Wassim qui ont déjà leur asile en Belgique, et vivent déjà dans leur petit studio en attente que leur femme et enfant viennent les rejoindre.
       Merci pour Abu-Maher qui a aussi depuis un mois l’asile et pour tout les autres qui ont rejoins leurs Familles en Angleterre ou ailleurs."
-  
+  perspectives:
+    title: Perspectives
+    presentation:
+      title: Nos projets
+      paragraph_one_html: |
+        <strong>Nous souhaitons continuer à répondre à la demande des réfugiés en créant d'autres activités 
+        nécessaires à leur insertion au sein de notre société.</strong>
+      paragraph_two_html: |
+        Nous avons pour obejctif de <span class="str">lancer un projet de stylisme</span> en mettant au centre de nos priorités la femme réfugiée. 
+        L'activité se fera en collaboration avec une styliste belge et un atelier de transformation bruxellois. 
+        <strong>D'autres projets sont en cours pour l'émancipation des femmes à l'étranger et de la formation des femmes réfugiées en Belgique.</strong>
+        L'un deux nous tient particulièrement à coeur. Il consistera à <span class="str">importer des produits cosmétiques 100% naturels préparés par des femmes vivant en situation précaire
+        dans les régions très retirées de L'Atlas.</span>
+        Les femmes travaillant à la préparation des produits seront <span class="str">mises en avant dans les packaging et la communication</span> de ceux-ci. </br>
+        Elles seront<span class="str">rémunérées </span>de manière <span class="str">éthique et équitabl. </span>
+        Dans le cadre de la formation des femmes réfugiées <span class="str">ces produits serviront à l'apprentissage des métiers d'esthétiques mais aussi des métiers liés à la communication, la vente, le marketing,... </span>
+      paragraph_three_html: |
+        Pour <span class="str">Nakanek </span>, nous souhaitons le lancement de plusieurs food-truck à Bruxelles afin de couvrir le plus d'évenements et de permettre une insertion professionnelle à plus de personnes. 
+        Ouverture d'un espace cuisine dédié à la formation et à la préparation de nos produits. 
+        Vous souhaitez en découvrir plus n'hésitez pas à nous suivre sur nos réseaux sociaux! 
+      paragraph_four_html: |
+        <span class="str">Création de partenariats </span> avec Actiris, Bruxelles formations, les CPAS, les communes de Bruxelles, des ASBL existantes dans la région de Bruxelles, les universités et les hautes écoles.
+    besoin: 
+      title: Nos besoins
+      list_html: |
+        <ul> 
+          <li>Des formateurs</li>
+          <li>Un budget pour la rémunération des stagiaires et formateurs</li>
+          <li>Des locaux dédiés aux formations pour nos projets actuels et futurs</li>
+          <li>Un espace cuisine et son matériel pour la formation et préparation des produits dans le cadre de l'activité <span class="str">Nakanek </span></li>
+          <li>Un budget pour l'achat de food-trucks</li>
+          <li>Un atelier de stylisme</li>
+          <li>Un budget pour les frais de gestiob de l'ASBL<li>
+          <li>Des partenariats pour les parcours d'intération sociale. Cela consisterait à avoir des accords avec Actiris, Bruxelles formation, l'ULB, hates écoles. Ces intervenants ou partenaires assureraient les cours de citoyenneté, d'insertion sociale, des cours de langue, l'accès à des métiers ainsi que des cours d'initiation au digital.</li>
+          <li>Pour que nos stages professionnels soient un réel levier dans la vie des réfugiés il est impératif que nos formations soient certifiées et nous avons le besoin pour cela de soutien des autorités compétantes.</li>
+        </ul>
   press:
     title: Nos passages dans les médias
     media-title: 'Santé mentale et exil'
