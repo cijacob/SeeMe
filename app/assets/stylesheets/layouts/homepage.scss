@@ -234,6 +234,28 @@ $grey: #455965;
       width: 100%;
     }
   }
+  .contact_group{
+    display: flex;
+    margin: 3em 0;
+    flex-direction: column;
+    align-items: center;
+    span{
+      color: $grey;
+      width: 400px;
+      margin-bottom: 0.5em;
+      .fa-user, 
+      .fa-tty, 
+      .fa-at, 
+      .fa-map-marker-alt{
+        color: $brown;
+        margin-right: 1.5em;
+      }
+      a{
+        color: $grey; 
+        text-decoration: none; 
+      }
+    }
+  }
 }
 
 .container-support{
