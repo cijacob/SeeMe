@@ -19,7 +19,8 @@ Rails.application.routes.draw do
     get 'press' => "homepage#press"
     get 'contact' => "homepage#contact"
     get 'support' => "homepage#support"
-    resources :homepage , only: [:index, :about, :history, :house, :perspectives]
+    get 'testimony' => "homepage#testimony"
+    resources :homepage , only: [:index, :about, :history, :house, :perspectives, :testimony]
     resources :projects
     resources :students
     resources :volunteers
