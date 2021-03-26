@@ -20,4 +20,7 @@ class HomepageController < ApplicationController
 
   def perspectives
   end
+
+  def partenaire
+  end 
 end

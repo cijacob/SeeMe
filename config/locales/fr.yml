@@ -115,7 +115,8 @@ fr:
        Imane El Kart est du genre entière. Alors plutôt que d’offrir un canapé pour quelques heures à une ou deux migrants du parc Maximilien, elle a ouvert la porte de sa maison – inoccupée en attente de travaux – en grand. Tout grand.[...]"
       article: "Lien vers l'article complet"
       maison_francois: "Maison François"
-      maison_francois_subtitle: "14 mois d’histoire et d’espoir"
+      maison_francois_subtitle_html: | 
+        18 mois d’histoire et d’espoir <br> (1er février 2018 - 30juin 2019)
       paragraph_two_html: |
        Marina Gutiérrez, notre plus grande source est la voix de la sagesse.
        Clarisse Jeghers, cette douce artiste au visage d’ange qui pourrait à force de volonté changer le monde, amener un facho à porter un panneau le poing levé et le cœur dans la main.
@@ -223,8 +224,8 @@ fr:
       volonteer: "Devenir bénévole"
       financial: "Faire un don"
     content: 
-      one_html: |
-        See Me | Jump for refugees agit sur le terrain pour aider les personnes à se former à un métier et ainsi pouvoir s'intégrer plus facilement. 
+      two_html: |
+        <span class="str">See Me | Jump for refugees</span> agit sur le terrain pour aider les personnes à se former à un métier et ainsi pouvoir s'intégrer plus facilement. 
         Cependant comme toute ASBL, il nous faut les moyens d'accomplir cette mission et votre aide nous serait bien précieuse. Vous souhaiter nous aider, merci donc
         de faire un virement que ce soit de façon sporadique ou régulière, nous vous en remercions infinement! </br>
 
@@ -232,16 +233,21 @@ fr:
         avec pour communication Nom + Prenom + don SeeMe </br>
 
         Nous vous remercions pour votre soutien! 
-      two_html: |
-        Vous souhaitez nous aider mais d'une autre manière que financièrment?!
-        Pas de problème! Toute aide est la bienvenue, 
-        Nous vous invitons à vous rendre sur la page "bénévole"
-        Afin de voir tous les domaines dans lesquels votre aide pourrait nous être précieuse
+      one_html: |
+        Le moyen le plus efficace d’avoir un impact est d’effectuer une donation. Cela permet à <span class="str">See Me | Jump for refugees</span>  d’inclure socialement et professionnellement un nombre important de personnes qui ont du fuir leur pays. En soutenant See Me vous participez à l’inclusions de ces hommes et ces femmes dans notre société à travers une activité qui réuni à la fois l’intégration par l’emploi et la formation. En aidant ces personnes à prendre part à notre société vous aidez également matériellement leur famille car chaque personne que nous aidons à devenir à nouveau indépendante économiquement peut aider à son tour sa famille en Belgique mais également celle qu’elle a du laisser derrière elle.
+        votre généreuse contribution redonnera un espoir aux familles qui ont tout à reconstruire.
 
       form: "Formulaire bénévolat"
         
       
-
+  partner:
+    title: "Je veux établir un partenariat"
+    description: ""
+    content: 
+      one_html: |
+        <p>Nombreux sont les réfugiés qui font face à d’énormes difficultés à commencer par se trouver une place dans notre société. </p>
+        <p>Ce n’est pas rien de se retrouver du jour au lendemain dans un pays où tout nous est inconnu. Répondre à une telle situation requiert non seulement des ressources financières mais également des solutions concrètes et évolutives. <br>
+        Nous vous invitons à discuter avec nous de vos objectifs en tant qu’entreprise, ou particulier de votre expertise et de vos idées, et de l’engagement que vous souhaitez prendre pour qu’ensemble nous explorions de nouvelles approches pour résoudre l’une des crises les plus sensible que nous ayant connu depuis longtemps.</p>
 
   students:
     new:

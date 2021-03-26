@@ -1,25 +1,29 @@
 
 <div class="container-fluid container-about-seeme">
   <div class="row sub-content">
-    <div class="col-md-8">
-        <div class="row">
-          <div class="img_content">
-            <%= image_tag("tempory_picture_about-us.jpg", class: "img-fluid img-solidarity", alt: "Famille accuillie à la maison François") %>
-          </div>
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-12"><h3 class="text-center"><%= t('about.story.maison_francois') %></h3></div>
+        <div class="col-12"><h4><%= t('about.story.maison_francois_subtitle_html') %></h4></div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <p><%= t('about.story.paragraph_two_html') %></p>
         </div>
-        <div class="row">
-          <div class="col-12"><h3 class="text-center"><%= t('about.story.maison_francois') %></h3></div>
-          <div class="col-12"><h4><%= t('about.story.maison_francois_subtitle') %></h4></div>
-        </div>
-        <div class="row">
-          <div class="col-6">
-            <p><%= t('about.story.paragraph_two_html') %></p>
-          </div>
-          <div class="col-6">
+        <div class="col-6">
           <p><%= t('about.story.paragraph_three_html') %></p>
-          </div>
         </div>
       </div>
+    </div>
+    <div class="col align-self-center">
+      <div class="container_img">
+          <%= image_tag("Imane_seeme-about-us.jpg", class: "fit-left", alt: "") %>
+          <%= image_tag("Imane_seeme-about-us.jpg", class: "portrait", alt: "") %>
+          <%= image_tag("Imane_seeme-about-us.jpg", class: "fit-right", alt: "") %>
+          <%= image_tag("Imane_seeme-about-us.jpg", class: "", alt: "") %>
+          <%= image_tag("Imane_seeme-about-us.jpg", class: "fit-left portrait", alt: "") %>
+          <%= image_tag("Imane_seeme-about-us.jpg", class: "", alt: "") %>
+        </div>
     </div>
     <div class="row chiffres">
       <div class="col-12"><h4><%= t('about.story.chiffres') %></h4></div>

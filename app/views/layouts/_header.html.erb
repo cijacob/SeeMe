@@ -20,8 +20,15 @@
       <li class="nav-item">
         <%= link_to t('header.agir'), new_volunteer_path, class: "nav-link" %>
       </li>
+      <li class="nav-item dropdown">
+        <span class="nav-link"><%=  t('header.soutenir') %></span>
+        <div class="dropdown-content">
+          <%= link_to t('header.support'), support_path, class: "nav-link" %>
+          <%= link_to t('header.partenaire'), partenaire_path, class: "nav-link" %>
+        </div>
+      </li>
       <li class="nav-item">
-        <%= link_to t('header.soutenir'), support_path, class: "nav-link" %>
+        
       </li>
       <li class="nav-item">
         <%= link_to t('header.presse'), press_path, class: "nav-link" %>
@@ -33,13 +40,13 @@
         <%= link_to t('header.testimony'), testimony_path, class: "nav-link" %>
       </li>
     </ul>
-    <span class="">
+    <!--<span class="">
       <ul class="langages-list">
         <li><%= link_to t('header.en'), locale: "en" %></li>
         <li><%= link_to t('header.fr'), locale: "fr" %></li>
         <li><%= link_to t('header.nl'), locale: "nl" %></li>
         <li><%= link_to t('header.ar'), locale: "ar" %></li>
       </ul>
-    </span>
+    </span>-->
   </div>
 </nav>

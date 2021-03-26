@@ -4,7 +4,7 @@
 const channels = require.context('.', true, /_channel\.js$/)
 channels.keys().forEach(channels)
 
-document.addEventListener("DOMContentLoaded", function(event) {
+/*document.addEventListener("DOMContentLoaded", function(event) {
 
   const links = document.querySelectorAll('.link_tab_container'); 
   const linksContainer = document.querySelector('.tab_container'); 
@@ -25,5 +25,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
     .classList.add('section_content__active');
   })
 
-});
+});*/
 
